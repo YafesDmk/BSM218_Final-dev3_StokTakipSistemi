@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stok Takip Sistemi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 20px;
+    }
+    header { text-align: center; margin-bottom: 30px; }
+    header img { width: 300px; height: auto; }
+    
+    h1 { color: #4c2b86; margin-bottom: 5px; }
+    h2 { color: #6baf4c; font-weight: 300; }
+    
+    .description {
+      max-width: 600px;
+      text-align: center;
+      color: #555;
+      line-height: 1.6;
+      margin-bottom: 30px;
+    }
+
+    .auth-buttons button {
+      background-color: #6baf4c;
+      color: white;
+      padding: 14px 30px;
+      margin: 0 10px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .auth-buttons button:hover {
+      background-color: #45a049;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 8px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="Stok_takip_Logo.png" alt="Stok Takip Logo">
+    <h1>Stok Takip Sistemi</h1>
+    <h2>Modern İş Yönetimi</h2>
+  </header>
+
+  <div class="description">
+    <p>Satıcılar için özel olarak geliştirilmiş stok takip paneline hoş geldiniz. Stoklarınızı dijitalleştirin, verimliliğinizi artırın. Hemen giriş yapın ve yönetmeye başlayın.</p>
+  </div>
+
+  <div class="auth-buttons">
+    <button onclick="window.location.href='Satıcı_kayıt.html'">Satıcı Kayıt Ol</button>
+    <button onclick="window.location.href='Satıcı_giris.html'">Satıcı Girişi Yap</button>
+    <button onclick="window.location.href='Tedarikci_kayıt.html'">Tedarikçi Kayıt ol</button>
+    <button onclick="window.location.href='Tedarikci_giris.html'">Tedarikçi Girişi Yap</button>
+  </div>
+
+</body>
+</html>
